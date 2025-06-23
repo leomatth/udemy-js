@@ -1,0 +1,2 @@
+// short circuit evaluation
+
