@@ -80,3 +80,42 @@ form button:hover {
 .tabela-2 h2{
   margin-left: 15%;
 }
+
+.paragrafo-resultado {
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #000;
+}
+
+.imc-abaixo {
+    background-color: #f8d775;
+}
+
+.imc-normal {
+    background-color: #8ef59d;
+}
+
+.imc-sobrepeso {
+    background-color: #f7d86d;
+}
+
+.imc-obesidade1 {
+    background-color: #f5918e;
+}
+
+.imc-obesidade2 {
+    background-color: #d9534f;
+    color: white;
+}
+
+.imc-obesidade3 {
+    background-color: #000000;
+    color: white;
+}
+
+.imc-erro {
+    background-color: #ffdddd;
+    color: red;
+}
+
