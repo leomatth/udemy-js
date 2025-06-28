@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Data</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <main class="container">
+    <form id="calculadora">
+      <h1>Calculadora Básica</h1>
+      <p>Selecione a operação desejada:</p>
+
+      <!-- Inputs para os números -->
+      <div class="calculadora">
+        <input type="number" id="num1" placeholder="Digite o primeiro número">
+        <div class="operador" id="operador"></div>
+        <input type="number" id="num2" placeholder="Digite o segundo número">
+      </div>
+      <br>
+      <div class="botoes">
+        <button id="btnSomar">Somar</button>
+        <button id="btnSubtrair">Subtrair</button>
+        <button id="btnMultiplicar">Multiplicar</button>
+        <button id="btnDividir">Dividir</button>
+        <button id="btnModulo">Módulo</button>
+      </div>
+    </form>
+    <br>
+    <p class="resultado" id="resultado"></p>
+
+  </main>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
