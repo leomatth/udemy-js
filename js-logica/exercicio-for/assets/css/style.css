@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+
+
+form input, form label, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+form button:hover {
+  background: var(--primary-color-darker);
+}
+
+.tabela {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.tabela-1 h2{
+  margin-left: 15%;
+}
+
+.tabela-2 h2{
+  margin-left: 15%;
+}
+
+.paragrafo-resultado {
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #000;
+}
+
+.imc-abaixo {
+    background-color: #f8d775;
+}
+
+.imc-normal {
+    background-color: #8ef59d;
+}
+
+.imc-sobrepeso {
+    background-color: #f7d86d;
+}
+
+.imc-obesidade1 {
+    background-color: #f5918e;
+}
+
+.imc-obesidade2 {
+    background-color: #d9534f;
+    color: white;
+}
+
+.imc-obesidade3 {
+    background-color: #000000;
+    color: white;
+}
+
+.imc-erro {
+    background-color: #ffdddd;
+    color: red;
+}
+
+.calculadora {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* CENTRALIZA verticalmente */
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.operador {
+  background-color: rgb(192, 192, 155);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+
+.calculadora input {
+  width: 250px;
+  height: 30px;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+form button {
+  width: 200px; /* ou 150px, como preferir */
+  margin: 10px;
+}
+
+.botoes {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
