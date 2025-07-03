@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+li {
+  list-style: none;
+  font-size: 14px;
+  display: flex;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.container header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+  flex-direction: column;
+}
+
+.tabela {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1%;
+  gap: 2%;
+}
+
+.tabela h4 {
+  display: flex;
+  justify-content: center;
+}
+
+.tabela ul {
+  display: flex;
+  text-align: center;
+  padding: 0%;
+  flex-direction: column;
+  height: 400px;
+}
+
+.tabela div {
+  border: #29292931 solid 1px;
+  padding: 2%;
+  width: 200px;
+}
+
+.botoes-tabela {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10%;
+}
+
+.contador {
+  display:flex;
+  flex-direction: column;
+  gap:5%;
+}
+
+.fazer-contagem {
+  color:red;
+}
+.andamento-contagem {
+  color:rgb(8, 32, 139);
+}
+.concluidas-contagem {
+  color:green;
+}
+
+.excluir-salvar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
